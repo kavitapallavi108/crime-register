@@ -1,0 +1,571 @@
+year,city,state,age_group,sex,persons_arrested,data_status
+2020,Ahmedabad,Gujarat,Under 18 (juvenile),Male,481,real_ncrb
+2020,Ahmedabad,Gujarat,Under 18 (juvenile),Female,3,real_ncrb
+2020,Ahmedabad,Gujarat,18-29,Male,31809,real_ncrb
+2020,Ahmedabad,Gujarat,18-29,Female,1122,real_ncrb
+2020,Ahmedabad,Gujarat,30-44,Male,28809,real_ncrb
+2020,Ahmedabad,Gujarat,30-44,Female,1700,real_ncrb
+2020,Ahmedabad,Gujarat,45-59,Male,12012,real_ncrb
+2020,Ahmedabad,Gujarat,45-59,Female,893,real_ncrb
+2020,Ahmedabad,Gujarat,60+,Male,1030,real_ncrb
+2020,Ahmedabad,Gujarat,60+,Female,199,real_ncrb
+2020,Bengaluru,Karnataka,Under 18 (juvenile),Male,192,real_ncrb
+2020,Bengaluru,Karnataka,Under 18 (juvenile),Female,2,real_ncrb
+2020,Bengaluru,Karnataka,18-29,Male,11300,real_ncrb
+2020,Bengaluru,Karnataka,18-29,Female,439,real_ncrb
+2020,Bengaluru,Karnataka,30-44,Male,7517,real_ncrb
+2020,Bengaluru,Karnataka,30-44,Female,828,real_ncrb
+2020,Bengaluru,Karnataka,45-59,Male,2079,real_ncrb
+2020,Bengaluru,Karnataka,45-59,Female,346,real_ncrb
+2020,Bengaluru,Karnataka,60+,Male,279,real_ncrb
+2020,Bengaluru,Karnataka,60+,Female,78,real_ncrb
+2020,Chennai,Tamil Nadu,Under 18 (juvenile),Male,792,real_ncrb
+2020,Chennai,Tamil Nadu,Under 18 (juvenile),Female,0,real_ncrb
+2020,Chennai,Tamil Nadu,18-29,Male,79187,real_ncrb
+2020,Chennai,Tamil Nadu,18-29,Female,9427,real_ncrb
+2020,Chennai,Tamil Nadu,30-44,Male,64747,real_ncrb
+2020,Chennai,Tamil Nadu,30-44,Female,9638,real_ncrb
+2020,Chennai,Tamil Nadu,45-59,Male,47378,real_ncrb
+2020,Chennai,Tamil Nadu,45-59,Female,5420,real_ncrb
+2020,Chennai,Tamil Nadu,60+,Male,23567,real_ncrb
+2020,Chennai,Tamil Nadu,60+,Female,1590,real_ncrb
+2020,Coimbatore,Tamil Nadu,Under 18 (juvenile),Male,32,real_ncrb
+2020,Coimbatore,Tamil Nadu,Under 18 (juvenile),Female,0,real_ncrb
+2020,Coimbatore,Tamil Nadu,18-29,Male,5650,real_ncrb
+2020,Coimbatore,Tamil Nadu,18-29,Female,79,real_ncrb
+2020,Coimbatore,Tamil Nadu,30-44,Male,6674,real_ncrb
+2020,Coimbatore,Tamil Nadu,30-44,Female,198,real_ncrb
+2020,Coimbatore,Tamil Nadu,45-59,Male,1120,real_ncrb
+2020,Coimbatore,Tamil Nadu,45-59,Female,121,real_ncrb
+2020,Coimbatore,Tamil Nadu,60+,Male,339,real_ncrb
+2020,Coimbatore,Tamil Nadu,60+,Female,20,real_ncrb
+2020,Delhi,Delhi,Under 18 (juvenile),Male,2720,real_ncrb
+2020,Delhi,Delhi,Under 18 (juvenile),Female,4,real_ncrb
+2020,Delhi,Delhi,18-29,Male,49370,real_ncrb
+2020,Delhi,Delhi,18-29,Female,587,real_ncrb
+2020,Delhi,Delhi,30-44,Male,38914,real_ncrb
+2020,Delhi,Delhi,30-44,Female,769,real_ncrb
+2020,Delhi,Delhi,45-59,Male,13179,real_ncrb
+2020,Delhi,Delhi,45-59,Female,259,real_ncrb
+2020,Delhi,Delhi,60+,Male,671,real_ncrb
+2020,Delhi,Delhi,60+,Female,30,real_ncrb
+2020,Ghaziabad,Uttar Pradesh,Under 18 (juvenile),Male,0,real_ncrb
+2020,Ghaziabad,Uttar Pradesh,Under 18 (juvenile),Female,0,real_ncrb
+2020,Ghaziabad,Uttar Pradesh,18-29,Male,633,real_ncrb
+2020,Ghaziabad,Uttar Pradesh,18-29,Female,8,real_ncrb
+2020,Ghaziabad,Uttar Pradesh,30-44,Male,1170,real_ncrb
+2020,Ghaziabad,Uttar Pradesh,30-44,Female,16,real_ncrb
+2020,Ghaziabad,Uttar Pradesh,45-59,Male,509,real_ncrb
+2020,Ghaziabad,Uttar Pradesh,45-59,Female,9,real_ncrb
+2020,Ghaziabad,Uttar Pradesh,60+,Male,0,real_ncrb
+2020,Ghaziabad,Uttar Pradesh,60+,Female,0,real_ncrb
+2020,Hyderabad,Telangana,Under 18 (juvenile),Male,249,real_ncrb
+2020,Hyderabad,Telangana,Under 18 (juvenile),Female,0,real_ncrb
+2020,Hyderabad,Telangana,18-29,Male,1832,real_ncrb
+2020,Hyderabad,Telangana,18-29,Female,88,real_ncrb
+2020,Hyderabad,Telangana,30-44,Male,1777,real_ncrb
+2020,Hyderabad,Telangana,30-44,Female,96,real_ncrb
+2020,Hyderabad,Telangana,45-59,Male,763,real_ncrb
+2020,Hyderabad,Telangana,45-59,Female,25,real_ncrb
+2020,Hyderabad,Telangana,60+,Male,25,real_ncrb
+2020,Hyderabad,Telangana,60+,Female,0,real_ncrb
+2020,Indore,Madhya Pradesh,Under 18 (juvenile),Male,292,real_ncrb
+2020,Indore,Madhya Pradesh,Under 18 (juvenile),Female,16,real_ncrb
+2020,Indore,Madhya Pradesh,18-29,Male,5430,real_ncrb
+2020,Indore,Madhya Pradesh,18-29,Female,236,real_ncrb
+2020,Indore,Madhya Pradesh,30-44,Male,3743,real_ncrb
+2020,Indore,Madhya Pradesh,30-44,Female,277,real_ncrb
+2020,Indore,Madhya Pradesh,45-59,Male,893,real_ncrb
+2020,Indore,Madhya Pradesh,45-59,Female,104,real_ncrb
+2020,Indore,Madhya Pradesh,60+,Male,26,real_ncrb
+2020,Indore,Madhya Pradesh,60+,Female,5,real_ncrb
+2020,Jaipur,Rajasthan,Under 18 (juvenile),Male,253,real_ncrb
+2020,Jaipur,Rajasthan,Under 18 (juvenile),Female,2,real_ncrb
+2020,Jaipur,Rajasthan,18-29,Male,5716,real_ncrb
+2020,Jaipur,Rajasthan,18-29,Female,262,real_ncrb
+2020,Jaipur,Rajasthan,30-44,Male,3428,real_ncrb
+2020,Jaipur,Rajasthan,30-44,Female,235,real_ncrb
+2020,Jaipur,Rajasthan,45-59,Male,1259,real_ncrb
+2020,Jaipur,Rajasthan,45-59,Female,90,real_ncrb
+2020,Jaipur,Rajasthan,60+,Male,96,real_ncrb
+2020,Jaipur,Rajasthan,60+,Female,11,real_ncrb
+2020,Kanpur,Uttar Pradesh,Under 18 (juvenile),Male,19,real_ncrb
+2020,Kanpur,Uttar Pradesh,Under 18 (juvenile),Female,0,real_ncrb
+2020,Kanpur,Uttar Pradesh,18-29,Male,4434,real_ncrb
+2020,Kanpur,Uttar Pradesh,18-29,Female,51,real_ncrb
+2020,Kanpur,Uttar Pradesh,30-44,Male,3098,real_ncrb
+2020,Kanpur,Uttar Pradesh,30-44,Female,23,real_ncrb
+2020,Kanpur,Uttar Pradesh,45-59,Male,814,real_ncrb
+2020,Kanpur,Uttar Pradesh,45-59,Female,8,real_ncrb
+2020,Kanpur,Uttar Pradesh,60+,Male,0,real_ncrb
+2020,Kanpur,Uttar Pradesh,60+,Female,0,real_ncrb
+2020,Kochi,Kerala,Under 18 (juvenile),Male,29,real_ncrb
+2020,Kochi,Kerala,Under 18 (juvenile),Female,2,real_ncrb
+2020,Kochi,Kerala,18-29,Male,3014,real_ncrb
+2020,Kochi,Kerala,18-29,Female,23,real_ncrb
+2020,Kochi,Kerala,30-44,Male,3537,real_ncrb
+2020,Kochi,Kerala,30-44,Female,84,real_ncrb
+2020,Kochi,Kerala,45-59,Male,1210,real_ncrb
+2020,Kochi,Kerala,45-59,Female,67,real_ncrb
+2020,Kochi,Kerala,60+,Male,94,real_ncrb
+2020,Kochi,Kerala,60+,Female,17,real_ncrb
+2020,Kolkata,West Bengal,Under 18 (juvenile),Male,100,real_ncrb
+2020,Kolkata,West Bengal,Under 18 (juvenile),Female,5,real_ncrb
+2020,Kolkata,West Bengal,18-29,Male,7554,real_ncrb
+2020,Kolkata,West Bengal,18-29,Female,1499,real_ncrb
+2020,Kolkata,West Bengal,30-44,Male,10308,real_ncrb
+2020,Kolkata,West Bengal,30-44,Female,1631,real_ncrb
+2020,Kolkata,West Bengal,45-59,Male,4729,real_ncrb
+2020,Kolkata,West Bengal,45-59,Female,762,real_ncrb
+2020,Kolkata,West Bengal,60+,Male,679,real_ncrb
+2020,Kolkata,West Bengal,60+,Female,80,real_ncrb
+2020,Kozhikode,Kerala,Under 18 (juvenile),Male,11,real_ncrb
+2020,Kozhikode,Kerala,Under 18 (juvenile),Female,0,real_ncrb
+2020,Kozhikode,Kerala,18-29,Male,839,real_ncrb
+2020,Kozhikode,Kerala,18-29,Female,21,real_ncrb
+2020,Kozhikode,Kerala,30-44,Male,769,real_ncrb
+2020,Kozhikode,Kerala,30-44,Female,43,real_ncrb
+2020,Kozhikode,Kerala,45-59,Male,314,real_ncrb
+2020,Kozhikode,Kerala,45-59,Female,23,real_ncrb
+2020,Kozhikode,Kerala,60+,Male,85,real_ncrb
+2020,Kozhikode,Kerala,60+,Female,11,real_ncrb
+2020,Lucknow,Uttar Pradesh,Under 18 (juvenile),Male,104,real_ncrb
+2020,Lucknow,Uttar Pradesh,Under 18 (juvenile),Female,1,real_ncrb
+2020,Lucknow,Uttar Pradesh,18-29,Male,5176,real_ncrb
+2020,Lucknow,Uttar Pradesh,18-29,Female,15,real_ncrb
+2020,Lucknow,Uttar Pradesh,30-44,Male,3093,real_ncrb
+2020,Lucknow,Uttar Pradesh,30-44,Female,10,real_ncrb
+2020,Lucknow,Uttar Pradesh,45-59,Male,1367,real_ncrb
+2020,Lucknow,Uttar Pradesh,45-59,Female,7,real_ncrb
+2020,Lucknow,Uttar Pradesh,60+,Male,26,real_ncrb
+2020,Lucknow,Uttar Pradesh,60+,Female,0,real_ncrb
+2020,Mumbai,Maharashtra,Under 18 (juvenile),Male,353,real_ncrb
+2020,Mumbai,Maharashtra,Under 18 (juvenile),Female,0,real_ncrb
+2020,Mumbai,Maharashtra,18-29,Male,27833,real_ncrb
+2020,Mumbai,Maharashtra,18-29,Female,861,real_ncrb
+2020,Mumbai,Maharashtra,30-44,Male,18024,real_ncrb
+2020,Mumbai,Maharashtra,30-44,Female,940,real_ncrb
+2020,Mumbai,Maharashtra,45-59,Male,5364,real_ncrb
+2020,Mumbai,Maharashtra,45-59,Female,300,real_ncrb
+2020,Mumbai,Maharashtra,60+,Male,476,real_ncrb
+2020,Mumbai,Maharashtra,60+,Female,37,real_ncrb
+2020,Nagpur,Maharashtra,Under 18 (juvenile),Male,328,real_ncrb
+2020,Nagpur,Maharashtra,Under 18 (juvenile),Female,3,real_ncrb
+2020,Nagpur,Maharashtra,18-29,Male,7248,real_ncrb
+2020,Nagpur,Maharashtra,18-29,Female,249,real_ncrb
+2020,Nagpur,Maharashtra,30-44,Male,5263,real_ncrb
+2020,Nagpur,Maharashtra,30-44,Female,361,real_ncrb
+2020,Nagpur,Maharashtra,45-59,Male,1529,real_ncrb
+2020,Nagpur,Maharashtra,45-59,Female,112,real_ncrb
+2020,Nagpur,Maharashtra,60+,Male,112,real_ncrb
+2020,Nagpur,Maharashtra,60+,Female,6,real_ncrb
+2020,Patna,Bihar,Under 18 (juvenile),Male,24,real_ncrb
+2020,Patna,Bihar,Under 18 (juvenile),Female,0,real_ncrb
+2020,Patna,Bihar,18-29,Male,3991,real_ncrb
+2020,Patna,Bihar,18-29,Female,142,real_ncrb
+2020,Patna,Bihar,30-44,Male,1270,real_ncrb
+2020,Patna,Bihar,30-44,Female,177,real_ncrb
+2020,Patna,Bihar,45-59,Male,729,real_ncrb
+2020,Patna,Bihar,45-59,Female,208,real_ncrb
+2020,Patna,Bihar,60+,Male,0,real_ncrb
+2020,Patna,Bihar,60+,Female,0,real_ncrb
+2020,Pune,Maharashtra,Under 18 (juvenile),Male,343,real_ncrb
+2020,Pune,Maharashtra,Under 18 (juvenile),Female,2,real_ncrb
+2020,Pune,Maharashtra,18-29,Male,9711,real_ncrb
+2020,Pune,Maharashtra,18-29,Female,290,real_ncrb
+2020,Pune,Maharashtra,30-44,Male,6110,real_ncrb
+2020,Pune,Maharashtra,30-44,Female,362,real_ncrb
+2020,Pune,Maharashtra,45-59,Male,2296,real_ncrb
+2020,Pune,Maharashtra,45-59,Female,184,real_ncrb
+2020,Pune,Maharashtra,60+,Male,199,real_ncrb
+2020,Pune,Maharashtra,60+,Female,49,real_ncrb
+2020,Surat,Gujarat,Under 18 (juvenile),Male,412,real_ncrb
+2020,Surat,Gujarat,Under 18 (juvenile),Female,0,real_ncrb
+2020,Surat,Gujarat,18-29,Male,20287,real_ncrb
+2020,Surat,Gujarat,18-29,Female,282,real_ncrb
+2020,Surat,Gujarat,30-44,Male,14887,real_ncrb
+2020,Surat,Gujarat,30-44,Female,314,real_ncrb
+2020,Surat,Gujarat,45-59,Male,5890,real_ncrb
+2020,Surat,Gujarat,45-59,Female,216,real_ncrb
+2020,Surat,Gujarat,60+,Male,479,real_ncrb
+2020,Surat,Gujarat,60+,Female,76,real_ncrb
+2021,Ahmedabad,Gujarat,Under 18 (juvenile),Male,354,SIMULATED
+2021,Ahmedabad,Gujarat,Under 18 (juvenile),Female,2,SIMULATED
+2021,Ahmedabad,Gujarat,18-29,Male,21723,SIMULATED
+2021,Ahmedabad,Gujarat,18-29,Female,758,SIMULATED
+2021,Ahmedabad,Gujarat,30-44,Male,21575,SIMULATED
+2021,Ahmedabad,Gujarat,30-44,Female,1259,SIMULATED
+2021,Ahmedabad,Gujarat,45-59,Male,9263,SIMULATED
+2021,Ahmedabad,Gujarat,45-59,Female,586,SIMULATED
+2021,Ahmedabad,Gujarat,60+,Male,725,SIMULATED
+2021,Ahmedabad,Gujarat,60+,Female,129,SIMULATED
+2021,Bengaluru,Karnataka,Under 18 (juvenile),Male,222,SIMULATED
+2021,Bengaluru,Karnataka,Under 18 (juvenile),Female,2,SIMULATED
+2021,Bengaluru,Karnataka,18-29,Male,11904,SIMULATED
+2021,Bengaluru,Karnataka,18-29,Female,445,SIMULATED
+2021,Bengaluru,Karnataka,30-44,Male,8928,SIMULATED
+2021,Bengaluru,Karnataka,30-44,Female,872,SIMULATED
+2021,Bengaluru,Karnataka,45-59,Male,2078,SIMULATED
+2021,Bengaluru,Karnataka,45-59,Female,346,SIMULATED
+2021,Bengaluru,Karnataka,60+,Male,325,SIMULATED
+2021,Bengaluru,Karnataka,60+,Female,87,SIMULATED
+2021,Chennai,Tamil Nadu,Under 18 (juvenile),Male,298,SIMULATED
+2021,Chennai,Tamil Nadu,Under 18 (juvenile),Female,0,SIMULATED
+2021,Chennai,Tamil Nadu,18-29,Male,27110,SIMULATED
+2021,Chennai,Tamil Nadu,18-29,Female,3269,SIMULATED
+2021,Chennai,Tamil Nadu,30-44,Male,21472,SIMULATED
+2021,Chennai,Tamil Nadu,30-44,Female,3303,SIMULATED
+2021,Chennai,Tamil Nadu,45-59,Male,15785,SIMULATED
+2021,Chennai,Tamil Nadu,45-59,Female,1875,SIMULATED
+2021,Chennai,Tamil Nadu,60+,Male,8764,SIMULATED
+2021,Chennai,Tamil Nadu,60+,Female,560,SIMULATED
+2021,Coimbatore,Tamil Nadu,Under 18 (juvenile),Male,13,SIMULATED
+2021,Coimbatore,Tamil Nadu,Under 18 (juvenile),Female,0,SIMULATED
+2021,Coimbatore,Tamil Nadu,18-29,Male,2069,SIMULATED
+2021,Coimbatore,Tamil Nadu,18-29,Female,30,SIMULATED
+2021,Coimbatore,Tamil Nadu,30-44,Male,2582,SIMULATED
+2021,Coimbatore,Tamil Nadu,30-44,Female,76,SIMULATED
+2021,Coimbatore,Tamil Nadu,45-59,Male,384,SIMULATED
+2021,Coimbatore,Tamil Nadu,45-59,Female,40,SIMULATED
+2021,Coimbatore,Tamil Nadu,60+,Male,118,SIMULATED
+2021,Coimbatore,Tamil Nadu,60+,Female,7,SIMULATED
+2021,Delhi,Delhi,Under 18 (juvenile),Male,3225,SIMULATED
+2021,Delhi,Delhi,Under 18 (juvenile),Female,4,SIMULATED
+2021,Delhi,Delhi,18-29,Male,58810,SIMULATED
+2021,Delhi,Delhi,18-29,Female,742,SIMULATED
+2021,Delhi,Delhi,30-44,Male,44667,SIMULATED
+2021,Delhi,Delhi,30-44,Female,850,SIMULATED
+2021,Delhi,Delhi,45-59,Male,16974,SIMULATED
+2021,Delhi,Delhi,45-59,Female,304,SIMULATED
+2021,Delhi,Delhi,60+,Male,722,SIMULATED
+2021,Delhi,Delhi,60+,Female,32,SIMULATED
+2021,Ghaziabad,Uttar Pradesh,Under 18 (juvenile),Male,0,SIMULATED
+2021,Ghaziabad,Uttar Pradesh,Under 18 (juvenile),Female,0,SIMULATED
+2021,Ghaziabad,Uttar Pradesh,18-29,Male,661,SIMULATED
+2021,Ghaziabad,Uttar Pradesh,18-29,Female,8,SIMULATED
+2021,Ghaziabad,Uttar Pradesh,30-44,Male,1124,SIMULATED
+2021,Ghaziabad,Uttar Pradesh,30-44,Female,17,SIMULATED
+2021,Ghaziabad,Uttar Pradesh,45-59,Male,473,SIMULATED
+2021,Ghaziabad,Uttar Pradesh,45-59,Female,9,SIMULATED
+2021,Ghaziabad,Uttar Pradesh,60+,Male,0,SIMULATED
+2021,Ghaziabad,Uttar Pradesh,60+,Female,0,SIMULATED
+2021,Hyderabad,Telangana,Under 18 (juvenile),Male,282,SIMULATED
+2021,Hyderabad,Telangana,Under 18 (juvenile),Female,0,SIMULATED
+2021,Hyderabad,Telangana,18-29,Male,2080,SIMULATED
+2021,Hyderabad,Telangana,18-29,Female,95,SIMULATED
+2021,Hyderabad,Telangana,30-44,Male,1720,SIMULATED
+2021,Hyderabad,Telangana,30-44,Female,100,SIMULATED
+2021,Hyderabad,Telangana,45-59,Male,742,SIMULATED
+2021,Hyderabad,Telangana,45-59,Female,29,SIMULATED
+2021,Hyderabad,Telangana,60+,Male,29,SIMULATED
+2021,Hyderabad,Telangana,60+,Female,0,SIMULATED
+2021,Indore,Madhya Pradesh,Under 18 (juvenile),Male,311,SIMULATED
+2021,Indore,Madhya Pradesh,Under 18 (juvenile),Female,17,SIMULATED
+2021,Indore,Madhya Pradesh,18-29,Male,5543,SIMULATED
+2021,Indore,Madhya Pradesh,18-29,Female,272,SIMULATED
+2021,Indore,Madhya Pradesh,30-44,Male,3948,SIMULATED
+2021,Indore,Madhya Pradesh,30-44,Female,280,SIMULATED
+2021,Indore,Madhya Pradesh,45-59,Male,964,SIMULATED
+2021,Indore,Madhya Pradesh,45-59,Female,117,SIMULATED
+2021,Indore,Madhya Pradesh,60+,Male,26,SIMULATED
+2021,Indore,Madhya Pradesh,60+,Female,5,SIMULATED
+2021,Jaipur,Rajasthan,Under 18 (juvenile),Male,257,SIMULATED
+2021,Jaipur,Rajasthan,Under 18 (juvenile),Female,2,SIMULATED
+2021,Jaipur,Rajasthan,18-29,Male,6001,SIMULATED
+2021,Jaipur,Rajasthan,18-29,Female,314,SIMULATED
+2021,Jaipur,Rajasthan,30-44,Male,4079,SIMULATED
+2021,Jaipur,Rajasthan,30-44,Female,238,SIMULATED
+2021,Jaipur,Rajasthan,45-59,Male,1324,SIMULATED
+2021,Jaipur,Rajasthan,45-59,Female,103,SIMULATED
+2021,Jaipur,Rajasthan,60+,Male,100,SIMULATED
+2021,Jaipur,Rajasthan,60+,Female,11,SIMULATED
+2021,Kanpur,Uttar Pradesh,Under 18 (juvenile),Male,20,SIMULATED
+2021,Kanpur,Uttar Pradesh,Under 18 (juvenile),Female,0,SIMULATED
+2021,Kanpur,Uttar Pradesh,18-29,Male,4902,SIMULATED
+2021,Kanpur,Uttar Pradesh,18-29,Female,47,SIMULATED
+2021,Kanpur,Uttar Pradesh,30-44,Male,3062,SIMULATED
+2021,Kanpur,Uttar Pradesh,30-44,Female,22,SIMULATED
+2021,Kanpur,Uttar Pradesh,45-59,Male,880,SIMULATED
+2021,Kanpur,Uttar Pradesh,45-59,Female,8,SIMULATED
+2021,Kanpur,Uttar Pradesh,60+,Male,0,SIMULATED
+2021,Kanpur,Uttar Pradesh,60+,Female,0,SIMULATED
+2021,Kochi,Kerala,Under 18 (juvenile),Male,30,SIMULATED
+2021,Kochi,Kerala,Under 18 (juvenile),Female,2,SIMULATED
+2021,Kochi,Kerala,18-29,Male,3085,SIMULATED
+2021,Kochi,Kerala,18-29,Female,21,SIMULATED
+2021,Kochi,Kerala,30-44,Male,3374,SIMULATED
+2021,Kochi,Kerala,30-44,Female,76,SIMULATED
+2021,Kochi,Kerala,45-59,Male,1135,SIMULATED
+2021,Kochi,Kerala,45-59,Female,58,SIMULATED
+2021,Kochi,Kerala,60+,Male,88,SIMULATED
+2021,Kochi,Kerala,60+,Female,18,SIMULATED
+2021,Kolkata,West Bengal,Under 18 (juvenile),Male,109,SIMULATED
+2021,Kolkata,West Bengal,Under 18 (juvenile),Female,5,SIMULATED
+2021,Kolkata,West Bengal,18-29,Male,7591,SIMULATED
+2021,Kolkata,West Bengal,18-29,Female,1568,SIMULATED
+2021,Kolkata,West Bengal,30-44,Male,9362,SIMULATED
+2021,Kolkata,West Bengal,30-44,Female,1653,SIMULATED
+2021,Kolkata,West Bengal,45-59,Male,4715,SIMULATED
+2021,Kolkata,West Bengal,45-59,Female,813,SIMULATED
+2021,Kolkata,West Bengal,60+,Male,630,SIMULATED
+2021,Kolkata,West Bengal,60+,Female,87,SIMULATED
+2021,Kozhikode,Kerala,Under 18 (juvenile),Male,10,SIMULATED
+2021,Kozhikode,Kerala,Under 18 (juvenile),Female,0,SIMULATED
+2021,Kozhikode,Kerala,18-29,Male,806,SIMULATED
+2021,Kozhikode,Kerala,18-29,Female,22,SIMULATED
+2021,Kozhikode,Kerala,30-44,Male,692,SIMULATED
+2021,Kozhikode,Kerala,30-44,Female,43,SIMULATED
+2021,Kozhikode,Kerala,45-59,Male,285,SIMULATED
+2021,Kozhikode,Kerala,45-59,Female,22,SIMULATED
+2021,Kozhikode,Kerala,60+,Male,84,SIMULATED
+2021,Kozhikode,Kerala,60+,Female,10,SIMULATED
+2021,Lucknow,Uttar Pradesh,Under 18 (juvenile),Male,113,SIMULATED
+2021,Lucknow,Uttar Pradesh,Under 18 (juvenile),Female,1,SIMULATED
+2021,Lucknow,Uttar Pradesh,18-29,Male,5081,SIMULATED
+2021,Lucknow,Uttar Pradesh,18-29,Female,14,SIMULATED
+2021,Lucknow,Uttar Pradesh,30-44,Male,3325,SIMULATED
+2021,Lucknow,Uttar Pradesh,30-44,Female,10,SIMULATED
+2021,Lucknow,Uttar Pradesh,45-59,Male,1409,SIMULATED
+2021,Lucknow,Uttar Pradesh,45-59,Female,8,SIMULATED
+2021,Lucknow,Uttar Pradesh,60+,Male,27,SIMULATED
+2021,Lucknow,Uttar Pradesh,60+,Female,0,SIMULATED
+2021,Mumbai,Maharashtra,Under 18 (juvenile),Male,343,SIMULATED
+2021,Mumbai,Maharashtra,Under 18 (juvenile),Female,0,SIMULATED
+2021,Mumbai,Maharashtra,18-29,Male,26636,SIMULATED
+2021,Mumbai,Maharashtra,18-29,Female,765,SIMULATED
+2021,Mumbai,Maharashtra,30-44,Male,16760,SIMULATED
+2021,Mumbai,Maharashtra,30-44,Female,947,SIMULATED
+2021,Mumbai,Maharashtra,45-59,Male,5345,SIMULATED
+2021,Mumbai,Maharashtra,45-59,Female,257,SIMULATED
+2021,Mumbai,Maharashtra,60+,Male,437,SIMULATED
+2021,Mumbai,Maharashtra,60+,Female,33,SIMULATED
+2021,Nagpur,Maharashtra,Under 18 (juvenile),Male,330,SIMULATED
+2021,Nagpur,Maharashtra,Under 18 (juvenile),Female,3,SIMULATED
+2021,Nagpur,Maharashtra,18-29,Male,7207,SIMULATED
+2021,Nagpur,Maharashtra,18-29,Female,236,SIMULATED
+2021,Nagpur,Maharashtra,30-44,Male,4560,SIMULATED
+2021,Nagpur,Maharashtra,30-44,Female,311,SIMULATED
+2021,Nagpur,Maharashtra,45-59,Male,1370,SIMULATED
+2021,Nagpur,Maharashtra,45-59,Female,113,SIMULATED
+2021,Nagpur,Maharashtra,60+,Male,111,SIMULATED
+2021,Nagpur,Maharashtra,60+,Female,6,SIMULATED
+2021,Patna,Bihar,Under 18 (juvenile),Male,25,SIMULATED
+2021,Patna,Bihar,Under 18 (juvenile),Female,0,SIMULATED
+2021,Patna,Bihar,18-29,Male,4050,SIMULATED
+2021,Patna,Bihar,18-29,Female,146,SIMULATED
+2021,Patna,Bihar,30-44,Male,1098,SIMULATED
+2021,Patna,Bihar,30-44,Female,177,SIMULATED
+2021,Patna,Bihar,45-59,Male,673,SIMULATED
+2021,Patna,Bihar,45-59,Female,216,SIMULATED
+2021,Patna,Bihar,60+,Male,0,SIMULATED
+2021,Patna,Bihar,60+,Female,0,SIMULATED
+2021,Pune,Maharashtra,Under 18 (juvenile),Male,339,SIMULATED
+2021,Pune,Maharashtra,Under 18 (juvenile),Female,2,SIMULATED
+2021,Pune,Maharashtra,18-29,Male,8188,SIMULATED
+2021,Pune,Maharashtra,18-29,Female,254,SIMULATED
+2021,Pune,Maharashtra,30-44,Male,5499,SIMULATED
+2021,Pune,Maharashtra,30-44,Female,362,SIMULATED
+2021,Pune,Maharashtra,45-59,Male,2340,SIMULATED
+2021,Pune,Maharashtra,45-59,Female,164,SIMULATED
+2021,Pune,Maharashtra,60+,Male,191,SIMULATED
+2021,Pune,Maharashtra,60+,Female,45,SIMULATED
+2021,Surat,Gujarat,Under 18 (juvenile),Male,308,SIMULATED
+2021,Surat,Gujarat,Under 18 (juvenile),Female,0,SIMULATED
+2021,Surat,Gujarat,18-29,Male,14815,SIMULATED
+2021,Surat,Gujarat,18-29,Female,202,SIMULATED
+2021,Surat,Gujarat,30-44,Male,10401,SIMULATED
+2021,Surat,Gujarat,30-44,Female,228,SIMULATED
+2021,Surat,Gujarat,45-59,Male,4005,SIMULATED
+2021,Surat,Gujarat,45-59,Female,161,SIMULATED
+2021,Surat,Gujarat,60+,Male,308,SIMULATED
+2021,Surat,Gujarat,60+,Female,59,SIMULATED
+2022,Ahmedabad,Gujarat,Under 18 (juvenile),Male,160,SIMULATED
+2022,Ahmedabad,Gujarat,Under 18 (juvenile),Female,1,SIMULATED
+2022,Ahmedabad,Gujarat,18-29,Male,10151,SIMULATED
+2022,Ahmedabad,Gujarat,18-29,Female,372,SIMULATED
+2022,Ahmedabad,Gujarat,30-44,Male,10459,SIMULATED
+2022,Ahmedabad,Gujarat,30-44,Female,605,SIMULATED
+2022,Ahmedabad,Gujarat,45-59,Male,3997,SIMULATED
+2022,Ahmedabad,Gujarat,45-59,Female,320,SIMULATED
+2022,Ahmedabad,Gujarat,60+,Male,386,SIMULATED
+2022,Ahmedabad,Gujarat,60+,Female,63,SIMULATED
+2022,Bengaluru,Karnataka,Under 18 (juvenile),Male,248,SIMULATED
+2022,Bengaluru,Karnataka,Under 18 (juvenile),Female,3,SIMULATED
+2022,Bengaluru,Karnataka,18-29,Male,13855,SIMULATED
+2022,Bengaluru,Karnataka,18-29,Female,585,SIMULATED
+2022,Bengaluru,Karnataka,30-44,Male,8928,SIMULATED
+2022,Bengaluru,Karnataka,30-44,Female,1018,SIMULATED
+2022,Bengaluru,Karnataka,45-59,Male,2698,SIMULATED
+2022,Bengaluru,Karnataka,45-59,Female,431,SIMULATED
+2022,Bengaluru,Karnataka,60+,Male,364,SIMULATED
+2022,Bengaluru,Karnataka,60+,Female,96,SIMULATED
+2022,Chennai,Tamil Nadu,Under 18 (juvenile),Male,168,SIMULATED
+2022,Chennai,Tamil Nadu,Under 18 (juvenile),Female,0,SIMULATED
+2022,Chennai,Tamil Nadu,18-29,Male,16418,SIMULATED
+2022,Chennai,Tamil Nadu,18-29,Female,2229,SIMULATED
+2022,Chennai,Tamil Nadu,30-44,Male,14497,SIMULATED
+2022,Chennai,Tamil Nadu,30-44,Female,2142,SIMULATED
+2022,Chennai,Tamil Nadu,45-59,Male,9625,SIMULATED
+2022,Chennai,Tamil Nadu,45-59,Female,1233,SIMULATED
+2022,Chennai,Tamil Nadu,60+,Male,4780,SIMULATED
+2022,Chennai,Tamil Nadu,60+,Female,337,SIMULATED
+2022,Coimbatore,Tamil Nadu,Under 18 (juvenile),Male,7,SIMULATED
+2022,Coimbatore,Tamil Nadu,Under 18 (juvenile),Female,0,SIMULATED
+2022,Coimbatore,Tamil Nadu,18-29,Male,1321,SIMULATED
+2022,Coimbatore,Tamil Nadu,18-29,Female,17,SIMULATED
+2022,Coimbatore,Tamil Nadu,30-44,Male,1496,SIMULATED
+2022,Coimbatore,Tamil Nadu,30-44,Female,42,SIMULATED
+2022,Coimbatore,Tamil Nadu,45-59,Male,264,SIMULATED
+2022,Coimbatore,Tamil Nadu,45-59,Female,26,SIMULATED
+2022,Coimbatore,Tamil Nadu,60+,Male,70,SIMULATED
+2022,Coimbatore,Tamil Nadu,60+,Female,4,SIMULATED
+2022,Delhi,Delhi,Under 18 (juvenile),Male,3023,SIMULATED
+2022,Delhi,Delhi,Under 18 (juvenile),Female,5,SIMULATED
+2022,Delhi,Delhi,18-29,Male,62998,SIMULATED
+2022,Delhi,Delhi,18-29,Female,697,SIMULATED
+2022,Delhi,Delhi,30-44,Male,42820,SIMULATED
+2022,Delhi,Delhi,30-44,Female,905,SIMULATED
+2022,Delhi,Delhi,45-59,Male,17465,SIMULATED
+2022,Delhi,Delhi,45-59,Female,314,SIMULATED
+2022,Delhi,Delhi,60+,Male,885,SIMULATED
+2022,Delhi,Delhi,60+,Female,39,SIMULATED
+2022,Ghaziabad,Uttar Pradesh,Under 18 (juvenile),Male,0,SIMULATED
+2022,Ghaziabad,Uttar Pradesh,Under 18 (juvenile),Female,0,SIMULATED
+2022,Ghaziabad,Uttar Pradesh,18-29,Male,716,SIMULATED
+2022,Ghaziabad,Uttar Pradesh,18-29,Female,8,SIMULATED
+2022,Ghaziabad,Uttar Pradesh,30-44,Male,1433,SIMULATED
+2022,Ghaziabad,Uttar Pradesh,30-44,Female,19,SIMULATED
+2022,Ghaziabad,Uttar Pradesh,45-59,Male,553,SIMULATED
+2022,Ghaziabad,Uttar Pradesh,45-59,Female,10,SIMULATED
+2022,Ghaziabad,Uttar Pradesh,60+,Male,0,SIMULATED
+2022,Ghaziabad,Uttar Pradesh,60+,Female,0,SIMULATED
+2022,Hyderabad,Telangana,Under 18 (juvenile),Male,268,SIMULATED
+2022,Hyderabad,Telangana,Under 18 (juvenile),Female,0,SIMULATED
+2022,Hyderabad,Telangana,18-29,Male,2202,SIMULATED
+2022,Hyderabad,Telangana,18-29,Female,107,SIMULATED
+2022,Hyderabad,Telangana,30-44,Male,1821,SIMULATED
+2022,Hyderabad,Telangana,30-44,Female,107,SIMULATED
+2022,Hyderabad,Telangana,45-59,Male,779,SIMULATED
+2022,Hyderabad,Telangana,45-59,Female,29,SIMULATED
+2022,Hyderabad,Telangana,60+,Male,29,SIMULATED
+2022,Hyderabad,Telangana,60+,Female,0,SIMULATED
+2022,Indore,Madhya Pradesh,Under 18 (juvenile),Male,338,SIMULATED
+2022,Indore,Madhya Pradesh,Under 18 (juvenile),Female,17,SIMULATED
+2022,Indore,Madhya Pradesh,18-29,Male,5640,SIMULATED
+2022,Indore,Madhya Pradesh,18-29,Female,249,SIMULATED
+2022,Indore,Madhya Pradesh,30-44,Male,3638,SIMULATED
+2022,Indore,Madhya Pradesh,30-44,Female,275,SIMULATED
+2022,Indore,Madhya Pradesh,45-59,Male,909,SIMULATED
+2022,Indore,Madhya Pradesh,45-59,Female,111,SIMULATED
+2022,Indore,Madhya Pradesh,60+,Male,26,SIMULATED
+2022,Indore,Madhya Pradesh,60+,Female,5,SIMULATED
+2022,Jaipur,Rajasthan,Under 18 (juvenile),Male,336,SIMULATED
+2022,Jaipur,Rajasthan,Under 18 (juvenile),Female,2,SIMULATED
+2022,Jaipur,Rajasthan,18-29,Male,6944,SIMULATED
+2022,Jaipur,Rajasthan,18-29,Female,338,SIMULATED
+2022,Jaipur,Rajasthan,30-44,Male,4445,SIMULATED
+2022,Jaipur,Rajasthan,30-44,Female,269,SIMULATED
+2022,Jaipur,Rajasthan,45-59,Male,1414,SIMULATED
+2022,Jaipur,Rajasthan,45-59,Female,108,SIMULATED
+2022,Jaipur,Rajasthan,60+,Male,115,SIMULATED
+2022,Jaipur,Rajasthan,60+,Female,13,SIMULATED
+2022,Kanpur,Uttar Pradesh,Under 18 (juvenile),Male,21,SIMULATED
+2022,Kanpur,Uttar Pradesh,Under 18 (juvenile),Female,0,SIMULATED
+2022,Kanpur,Uttar Pradesh,18-29,Male,4766,SIMULATED
+2022,Kanpur,Uttar Pradesh,18-29,Female,63,SIMULATED
+2022,Kanpur,Uttar Pradesh,30-44,Male,3465,SIMULATED
+2022,Kanpur,Uttar Pradesh,30-44,Female,28,SIMULATED
+2022,Kanpur,Uttar Pradesh,45-59,Male,930,SIMULATED
+2022,Kanpur,Uttar Pradesh,45-59,Female,8,SIMULATED
+2022,Kanpur,Uttar Pradesh,60+,Male,0,SIMULATED
+2022,Kanpur,Uttar Pradesh,60+,Female,0,SIMULATED
+2022,Kochi,Kerala,Under 18 (juvenile),Male,44,SIMULATED
+2022,Kochi,Kerala,Under 18 (juvenile),Female,3,SIMULATED
+2022,Kochi,Kerala,18-29,Male,4725,SIMULATED
+2022,Kochi,Kerala,18-29,Female,36,SIMULATED
+2022,Kochi,Kerala,30-44,Male,6107,SIMULATED
+2022,Kochi,Kerala,30-44,Female,146,SIMULATED
+2022,Kochi,Kerala,45-59,Male,1935,SIMULATED
+2022,Kochi,Kerala,45-59,Female,111,SIMULATED
+2022,Kochi,Kerala,60+,Male,138,SIMULATED
+2022,Kochi,Kerala,60+,Female,26,SIMULATED
+2022,Kolkata,West Bengal,Under 18 (juvenile),Male,91,SIMULATED
+2022,Kolkata,West Bengal,Under 18 (juvenile),Female,5,SIMULATED
+2022,Kolkata,West Bengal,18-29,Male,7622,SIMULATED
+2022,Kolkata,West Bengal,18-29,Female,1536,SIMULATED
+2022,Kolkata,West Bengal,30-44,Male,9666,SIMULATED
+2022,Kolkata,West Bengal,30-44,Female,1492,SIMULATED
+2022,Kolkata,West Bengal,45-59,Male,5048,SIMULATED
+2022,Kolkata,West Bengal,45-59,Female,716,SIMULATED
+2022,Kolkata,West Bengal,60+,Male,685,SIMULATED
+2022,Kolkata,West Bengal,60+,Female,81,SIMULATED
+2022,Kozhikode,Kerala,Under 18 (juvenile),Male,17,SIMULATED
+2022,Kozhikode,Kerala,Under 18 (juvenile),Female,0,SIMULATED
+2022,Kozhikode,Kerala,18-29,Male,1214,SIMULATED
+2022,Kozhikode,Kerala,18-29,Female,33,SIMULATED
+2022,Kozhikode,Kerala,30-44,Male,1338,SIMULATED
+2022,Kozhikode,Kerala,30-44,Female,75,SIMULATED
+2022,Kozhikode,Kerala,45-59,Male,454,SIMULATED
+2022,Kozhikode,Kerala,45-59,Female,34,SIMULATED
+2022,Kozhikode,Kerala,60+,Male,128,SIMULATED
+2022,Kozhikode,Kerala,60+,Female,19,SIMULATED
+2022,Lucknow,Uttar Pradesh,Under 18 (juvenile),Male,125,SIMULATED
+2022,Lucknow,Uttar Pradesh,Under 18 (juvenile),Female,1,SIMULATED
+2022,Lucknow,Uttar Pradesh,18-29,Male,6048,SIMULATED
+2022,Lucknow,Uttar Pradesh,18-29,Female,18,SIMULATED
+2022,Lucknow,Uttar Pradesh,30-44,Male,3244,SIMULATED
+2022,Lucknow,Uttar Pradesh,30-44,Female,10,SIMULATED
+2022,Lucknow,Uttar Pradesh,45-59,Male,1425,SIMULATED
+2022,Lucknow,Uttar Pradesh,45-59,Female,8,SIMULATED
+2022,Lucknow,Uttar Pradesh,60+,Male,28,SIMULATED
+2022,Lucknow,Uttar Pradesh,60+,Female,0,SIMULATED
+2022,Mumbai,Maharashtra,Under 18 (juvenile),Male,302,SIMULATED
+2022,Mumbai,Maharashtra,Under 18 (juvenile),Female,0,SIMULATED
+2022,Mumbai,Maharashtra,18-29,Male,27146,SIMULATED
+2022,Mumbai,Maharashtra,18-29,Female,778,SIMULATED
+2022,Mumbai,Maharashtra,30-44,Male,17936,SIMULATED
+2022,Mumbai,Maharashtra,30-44,Female,902,SIMULATED
+2022,Mumbai,Maharashtra,45-59,Male,5018,SIMULATED
+2022,Mumbai,Maharashtra,45-59,Female,257,SIMULATED
+2022,Mumbai,Maharashtra,60+,Male,413,SIMULATED
+2022,Mumbai,Maharashtra,60+,Female,38,SIMULATED
+2022,Nagpur,Maharashtra,Under 18 (juvenile),Male,336,SIMULATED
+2022,Nagpur,Maharashtra,Under 18 (juvenile),Female,3,SIMULATED
+2022,Nagpur,Maharashtra,18-29,Male,6536,SIMULATED
+2022,Nagpur,Maharashtra,18-29,Female,218,SIMULATED
+2022,Nagpur,Maharashtra,30-44,Male,5276,SIMULATED
+2022,Nagpur,Maharashtra,30-44,Female,369,SIMULATED
+2022,Nagpur,Maharashtra,45-59,Male,1424,SIMULATED
+2022,Nagpur,Maharashtra,45-59,Female,109,SIMULATED
+2022,Nagpur,Maharashtra,60+,Male,99,SIMULATED
+2022,Nagpur,Maharashtra,60+,Female,6,SIMULATED
+2022,Patna,Bihar,Under 18 (juvenile),Male,28,SIMULATED
+2022,Patna,Bihar,Under 18 (juvenile),Female,0,SIMULATED
+2022,Patna,Bihar,18-29,Male,4575,SIMULATED
+2022,Patna,Bihar,18-29,Female,142,SIMULATED
+2022,Patna,Bihar,30-44,Male,1479,SIMULATED
+2022,Patna,Bihar,30-44,Female,206,SIMULATED
+2022,Patna,Bihar,45-59,Male,746,SIMULATED
+2022,Patna,Bihar,45-59,Female,240,SIMULATED
+2022,Patna,Bihar,60+,Male,0,SIMULATED
+2022,Patna,Bihar,60+,Female,0,SIMULATED
+2022,Pune,Maharashtra,Under 18 (juvenile),Male,357,SIMULATED
+2022,Pune,Maharashtra,Under 18 (juvenile),Female,2,SIMULATED
+2022,Pune,Maharashtra,18-29,Male,10028,SIMULATED
+2022,Pune,Maharashtra,18-29,Female,254,SIMULATED
+2022,Pune,Maharashtra,30-44,Male,6346,SIMULATED
+2022,Pune,Maharashtra,30-44,Female,322,SIMULATED
+2022,Pune,Maharashtra,45-59,Male,2381,SIMULATED
+2022,Pune,Maharashtra,45-59,Female,166,SIMULATED
+2022,Pune,Maharashtra,60+,Male,174,SIMULATED
+2022,Pune,Maharashtra,60+,Female,46,SIMULATED
+2022,Surat,Gujarat,Under 18 (juvenile),Male,146,SIMULATED
+2022,Surat,Gujarat,Under 18 (juvenile),Female,0,SIMULATED
+2022,Surat,Gujarat,18-29,Male,7497,SIMULATED
+2022,Surat,Gujarat,18-29,Female,103,SIMULATED
+2022,Surat,Gujarat,30-44,Male,5105,SIMULATED
+2022,Surat,Gujarat,30-44,Female,101,SIMULATED
+2022,Surat,Gujarat,45-59,Male,2144,SIMULATED
+2022,Surat,Gujarat,45-59,Female,74,SIMULATED
+2022,Surat,Gujarat,60+,Male,163,SIMULATED
+2022,Surat,Gujarat,60+,Female,29,SIMULATED

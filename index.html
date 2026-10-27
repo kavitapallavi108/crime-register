@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>India's Crime Register</title>
+  <meta name="description" content="An interactive case file of India's NCRB crime data, 2020–2022: a paper tower, a map of case files, a police line-up and the lockdown wave.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800;900&family=JetBrains+Mono:wght@400;600;700&family=Public+Sans:wght@400;500;600;700&family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Reusable person figures for the line-up -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="fig-male" viewBox="0 0 20 44">
+        <circle cx="10" cy="6.5" r="5" fill="currentColor"/>
+        <rect x="4.5" y="13" width="11" height="16" rx="3.5" fill="currentColor"/>
+        <rect x="5.6" y="28" width="3.8" height="14" rx="1.6" fill="currentColor"/>
+        <rect x="10.6" y="28" width="3.8" height="14" rx="1.6" fill="currentColor"/>
+      </symbol>
+      <symbol id="fig-female" viewBox="0 0 20 44">
+        <circle cx="10" cy="6.5" r="5" fill="currentColor"/>
+        <path d="M10 13 L17.5 31 Q18 32 17 32 L3 32 Q2 32 2.5 31 Z" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+        <rect x="6.6" y="31" width="2.6" height="11" rx="1.2" fill="currentColor"/>
+        <rect x="10.8" y="31" width="2.6" height="11" rx="1.2" fill="currentColor"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="brand" href="#top" aria-label="India's Crime Register, back to top">
+        <span class="brand__label">File no.</span>
+        <span class="brand__no">IN/2020–22</span>
+      </a>
+      <div class="topbar__controls">
+        <div class="years" role="radiogroup" aria-label="Choose a year for the whole page" id="yearTabs"></div>
+        <button class="play" id="playBtn" type="button" aria-label="Play through 2020 to 2022">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.5v11l9-5.5z" fill="currentColor"/></svg>
+          <span>Play</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO: the ticking clock -->
+    <section class="hero" id="clock" aria-labelledby="heroTitle">
+      <p class="eyebrow">National Crime Records Bureau &middot; Case register, opened for the public</p>
+      <h1 id="heroTitle">India's Crime Register, <span class="nowrap">2020–2022</span></h1>
+
+      <div class="hero__grid">
+        <div class="hero__total">
+          <div class="big" id="heroTotal" aria-live="polite">–</div>
+          <div class="hero__unit">cases registered across India in <b class="yr">2022</b></div>
+          <div class="delta" id="heroDelta"></div>
+        </div>
+
+        <div class="clock" aria-describedby="clockText">
+          <svg class="clock__ring" viewBox="0 0 120 120" aria-hidden="true">
+            <circle cx="60" cy="60" r="52" class="clock__track"/>
+            <circle cx="60" cy="60" r="52" class="clock__fill" id="clockFill" pathLength="100"/>
+            <text x="60" y="56" text-anchor="middle" class="clock__sec" id="clockSec">8.9</text>
+            <text x="60" y="74" text-anchor="middle" class="clock__lbl">seconds</text>
+          </svg>
+          <div class="clock__text" id="clockText">
+            <p>Across the year, that is <b>one new case every <span id="every">8.9</span> seconds</b>, day and night.</p>
+            <p class="clock__since">Since you opened this page, about <b id="sinceOpen">0</b> new <span id="sinceUnit">cases</span> would have been registered.</p>
+          </div>
+          <span class="fir-pop" id="firPop" aria-hidden="true">FIR</span>
+        </div>
+      </div>
+      <p class="hero__line" id="heroLine"></p>
+      <nav class="contents" aria-label="Contents of this file">
+        <span class="contents__title">Contents of this file</span>
+        <a href="#stack"><b>A</b><span>The paper tower</span></a>
+        <a href="#map"><b>B</b><span>Map of case files</span></a>
+        <a href="#lineup"><b>C</b><span>The line-up</span></a>
+        <a href="#wave"><b>D</b><span>The lockdown wave</span></a>
+      </nav>
+    </section>
+
+    <!-- EXHIBIT A: paper tower -->
+    <section class="chapter" id="stack" aria-labelledby="stackTitle">
+      <header class="chapter__head">
+        <span class="exhibit">Exhibit A</span>
+        <h2 id="stackTitle">If every case were one sheet of paper</h2>
+        <p>Every case starts as a written complaint (an FIR). Imagine printing each <span class="yr">2022</span> case on one ordinary sheet of paper and piling the sheets up.</p>
+      </header>
+      <div class="stack-wrap">
+        <figure class="stack-fig">
+          <svg id="stackSvg" viewBox="0 0 600 470" role="img" aria-labelledby="stackDesc"></svg>
+          <figcaption id="stackDesc" class="sr-only"></figcaption>
+        </figure>
+        <div class="stack-facts">
+          <div class="big big--sm" id="stackM">–</div>
+          <p class="stack-facts__unit">tall pile of paper</p>
+          <p id="stackText" class="stack-facts__text"></p>
+          <p class="fine">One sheet is about 0.1 mm thick. The Qutub Minar is 72.5 m tall and the Eiffel Tower about 330 m.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXHIBIT B: tile map + dossier -->
+    <section class="chapter" id="map" aria-labelledby="mapTitle">
+      <header class="chapter__head">
+        <span class="exhibit">Exhibit B</span>
+        <h2 id="mapTitle">A map made of case files</h2>
+        <p>Every state and union territory gets one file of the same size, arranged roughly where it sits on the map. Darker ink means more. Tap a file to open its dossier.</p>
+      </header>
+
+      <div class="metric" role="radiogroup" aria-label="What should the map show?" id="metricToggle">
+        <button type="button" role="radio" data-metric="cases">Cases registered</button>
+        <button type="button" role="radio" data-metric="rate">Cases per lakh people <small>(2022)</small></button>
+        <button type="button" role="radio" data-metric="chargesheet">Taken to court <small>(2022)</small></button>
+      </div>
+      <p class="note" id="rateNote" hidden></p>
+
+      <div class="map-layout">
+        <div class="map-col">
+          <div class="tilemap" id="tilemap"></div>
+          <div class="legend legend--bins" id="mapLegend"></div>
+          <p class="fine">Tile positions are approximate. Every state gets equal space so small states stay visible.
+            <span class="dot-key"><span class="city-dot city-dot--static"></span> has a city in the line-up (Exhibit C).</span></p>
+        </div>
+        <aside class="dossier" id="dossier" aria-live="polite" aria-label="State dossier"></aside>
+      </div>
+    </section>
+
+    <!-- EXHIBIT C: line-up -->
+    <section class="chapter" id="lineup" aria-labelledby="lineupTitle">
+      <header class="chapter__head">
+        <span class="exhibit">Exhibit C</span>
+        <h2 id="lineupTitle">The line-up: if 100 people were arrested</h2>
+        <p>Shrink a city's arrests down to 100 people and line them up by age: men step out to the left, women to the right, the youngest stand at the bottom. The wider a row, the more people of that age were arrested.</p>
+      </header>
+
+      <p class="drawer-label"><span>Pull a city's file</span><span class="fine">ranked by people arrested in <span class="yr">2022</span></span></p>
+      <div class="casefiles" id="cityChips" role="radiogroup" aria-label="Choose a city"></div>
+
+      <div class="lineup-stage" id="lineupStage">
+        <div class="placard" id="placard"></div>
+        <div class="lineup-wall">
+          <div class="lineup-scale" aria-hidden="true"></div>
+          <svg id="lineupSvg" role="img" aria-labelledby="lineupSentence"></svg>
+        </div>
+      </div>
+
+      <p class="lineup-sentence" id="lineupSentence"></p>
+      <div class="lineup-legends">
+        <div class="legend legend--rows" id="ageLegend" aria-label="Age groups, hover or tap to highlight"></div>
+        <div class="legend legend--rows" id="sexLegend" aria-label="Sex, hover or tap to highlight"></div>
+      </div>
+    </section>
+
+    <!-- EXHIBIT D: lockdown wave -->
+    <section class="chapter" id="wave" aria-labelledby="waveTitle">
+      <header class="chapter__head">
+        <span class="exhibit">Exhibit D</span>
+        <h2 id="waveTitle">The lockdown wave</h2>
+        <p>Each line is one state's cases from 2020 to 2022. Lines that slide down lost cases, lines that climb gained them. Hover or tap a line to read it.</p>
+      </header>
+      <div class="presets" role="radiogroup" aria-label="Highlight a group of states" id="presets">
+        <button type="button" role="radio" data-preset="story">This year's story</button>
+        <button type="button" role="radio" data-preset="fallers">Lockdown fallers</button>
+        <button type="button" role="radio" data-preset="climbers">Steady climbers</button>
+        <button type="button" role="radio" data-preset="top">Top 6 this year</button>
+      </div>
+      <p class="caption" id="waveCaption"></p>
+      <div class="wave-box" id="waveBox">
+        <svg id="waveSvg" role="img" aria-label="Line chart of cases registered by each state, 2020 to 2022"></svg>
+        <div class="tip" id="waveTip" hidden></div>
+      </div>
+    </section>
+
+    <!-- Before you share -->
+    <section class="chapter" id="share" aria-labelledby="shareTitle">
+      <header class="chapter__head">
+        <span class="exhibit exhibit--warn">Read before use</span>
+        <h2 id="shareTitle">Before you share a number from this page</h2>
+      </header>
+      <ol class="notes">
+        <li><b>Don't start a trend in 2020.</b> That year is swollen by lakhs of cases filed for breaking COVID lockdown rules.</li>
+        <li><b>A high rate can be good news.</b> It may mean people can register an FIR easily, not only that there is more crime.</li>
+        <li><b>Arrests are not cases.</b> States count cases registered. Cities count people arrested. Never compare the two.</li>
+      </ol>
+    </section>
+
+    <footer class="sources" id="sources">
+      <h2>Sources</h2>
+      <p>National Crime Records Bureau, <i>Crime in India 2020</i> (Table 19B.2, persons arrested in metropolitan cities) and <i>Crime in India 2022</i> (Table 1A.1, IPC cognizable crimes by state and UT). <a href="https://ncrb.gov.in" target="_blank" rel="noopener">ncrb.gov.in</a></p>
+      <p class="fine">"Cases" are IPC cognizable cases registered. "Chargesheeted" means police finished investigating and sent the case to court. Crime and chargesheeting rates are published for 2022 only. City arrest figures for 2021–22 are estimated from each state's trend.</p>
+    </footer>
+  </main>
+
+  <div class="loading" id="loading" role="status">Opening the file…</div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
