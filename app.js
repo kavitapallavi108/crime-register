@@ -368,6 +368,8 @@ function buildChips() {
   syncers.push(radioGroup($('#cityChips'), 'city', () => S.city, (c) => {
     S.city = c;
     syncers.forEach((f) => f());
+    const seal = $(`#cityChips [data-city="${c}"]`);
+    if (seal && !reduceMotion.matches) { seal.classList.remove('stamped'); void seal.offsetWidth; seal.classList.add('stamped'); }
     renderLineup(true);
   }));
 }
@@ -379,13 +381,54 @@ function renderChips() {
   const max = files[0].total;
   const box = $('#cityChips');
   const hadFocus = box.contains(document.activeElement);
-  box.innerHTML = files.map((f, i) => `<button type="button" role="radio" class="cf" data-city="${f.c}" aria-label="${f.c}: ${fmtIN(f.total)} people arrested in ${S.year}">
-      <span class="cf__tab">No. ${String(i + 1).padStart(2, '0')}</span>
-      <span class="cf__name">${f.c}</span>
-      <span class="cf__state">${abbrOf[f.state] || ''}</span>
-      <span class="cf__bar" aria-hidden="true"><i style="width:${Math.max(2, (f.total / max) * 100)}%"></i></span>
-      <span class="cf__n">${fmtShort(f.total)} <small>arrested</small></span>
-    </button>`).join('');
+
+  // Round police seals sized by people arrested (square-root scale, so area tracks the count).
+  const small = innerWidth < 640;
+  const [minS, maxS] = small ? [70, 118] : [92, 168];
+  files.forEach((f, i) => {
+    f.rank = i + 1;
+    f.size = Math.round(minS + (maxS - minS) * Math.sqrt(f.total / max));
+    const rnd = seededRandom(f.c);
+    f.tilt = (rnd() * 12 - 6).toFixed(1);
+  });
+  // Pack seals into rows that fit the width (largest first), then put the biggest row in the
+  // middle with smaller rows alternating above and below; inside a row, biggest in the centre.
+  const avail = Math.max(240, box.clientWidth - 24);
+  const rows = [];
+  let row = [], used = 0;
+  files.forEach((f) => {
+    if (row.length && used + f.size + 6 > avail) { rows.push(row); row = []; used = 0; }
+    row.push(f);
+    used += f.size + 6;
+  });
+  if (row.length) rows.push(row);
+  const centreOut = (list) => { const out = []; list.forEach((f, i) => (i % 2 ? out.push(f) : out.unshift(f))); return out; };
+  const stacked = [];
+  rows.forEach((r, i) => (i % 2 ? stacked.unshift(centreOut(r)) : stacked.push(centreOut(r))));
+
+  const sealHtml = (f) => {
+    const id = `arc-${f.c.toLowerCase()}`;
+    const name = f.c.toUpperCase();
+    return `<button type="button" role="radio" class="seal" data-city="${f.c}" style="--s:${f.size}px;--tilt:${f.tilt}deg"
+        aria-label="${f.c}: ${fmtIN(f.total)} people arrested in ${S.year}, rank ${f.rank} of ${files.length}">
+      <svg viewBox="0 0 100 100" aria-hidden="true">
+        <defs>
+          <path id="${id}-t" d="M17,50 A33,33 0 0 1 83,50"/>
+          <path id="${id}-b" d="M21,50 A29,29 0 0 0 79,50"/>
+        </defs>
+        <circle class="seal__bg" cx="50" cy="50" r="47"/>
+        <circle class="seal__ring" cx="50" cy="50" r="47"/>
+        <circle class="seal__ring seal__ring--thin" cx="50" cy="50" r="42"/>
+        <circle class="seal__ring seal__ring--thin" cx="50" cy="50" r="24"/>
+        <text class="seal__name" font-size="${name.length > 8 ? 9.5 : 11}"><textPath href="#${id}-t" startOffset="50%" text-anchor="middle">${name}</textPath></text>
+        <text class="seal__foot"><textPath href="#${id}-b" startOffset="50%" text-anchor="middle">No.${String(f.rank).padStart(2, '0')} &middot; ${abbrOf[f.state] || ''}</textPath></text>
+        <circle class="seal__dot" cx="12.5" cy="50" r="1.6"/><circle class="seal__dot" cx="87.5" cy="50" r="1.6"/>
+        <text class="seal__n" x="50" y="53" text-anchor="middle">${fmtTiny(f.total)}</text>
+        <text class="seal__unit" x="50" y="62" text-anchor="middle">ARRESTED</text>
+      </svg>
+    </button>`;
+  };
+  box.innerHTML = stacked.map((r) => `<div class="seal-row">${r.map(sealHtml).join('')}</div>`).join('');
   syncers.forEach((s) => s());
   if (hadFocus) box.querySelector('[aria-checked="true"]')?.focus();
 }
@@ -630,7 +673,7 @@ async function init() {
   let rt;
   addEventListener('resize', () => {
     clearTimeout(rt);
-    rt = setTimeout(() => { renderWave(); renderLineup(false); renderDossier(); }, 150);
+    rt = setTimeout(() => { renderWave(); renderChips(); renderLineup(false); renderDossier(); }, 150);
   });
   darkQuery.addEventListener('change', () => renderDossier());
 
