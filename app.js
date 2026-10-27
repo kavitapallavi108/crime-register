@@ -41,7 +41,7 @@ const PRESETS = {
 function tween(from, to, ms, step, key) {
   tween.ids = tween.ids || {};
   if (tween.ids[key]) cancelAnimationFrame(tween.ids[key]);
-  if (reduceMotion.matches || ms <= 0 || from === to) { step(to); return; }
+  if (reduceMotion.matches || document.hidden || ms <= 0 || from === to) { step(to); return; }
   const t0 = performance.now();
   const ease = (t) => 1 - Math.pow(1 - t, 3);
   const frame = (now) => {
