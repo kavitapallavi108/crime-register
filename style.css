@@ -36,35 +36,6 @@
   --maxw: 1180px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
-    --paper: #10131a;
-    --paper-2: #171b24;
-    --rule: rgba(200, 215, 245, 0.045);
-    --margin: rgba(200, 215, 245, 0.12);
-    --ink: #e4e9f5;
-    --ink-2: #aeb7cb;
-    --muted: #858c9d;
-    --line: #2d3343;
-    --grid: #232837;
-    --stamp: #ff5d55;
-    --warn-bg: #2a1a1b;
-
-    --b0: #1a2944; --b1: #1f4f8f; --b2: #3987e5; --b3: #86b6ef; --b4: #cde2fb;
-    --t0: #dbe6f7; --t1: #ffffff; --t2: #ffffff; --t3: #0b1a33; --t4: #0b1a33;
-
-    --age-0: #d95926; --age-1: #3987e5; --age-2: #199e70; --age-3: #c98500; --age-4: #d55181;
-
-    --crowd: #2b3142;
-    --lit: #f2f5fb;
-    --tower: #e9e4d6;
-    --tower-edge: #8f8875;
-    --manila: #2a2619;
-    --manila-edge: #4b4430;
-    --manila-ink: #d9c893;
-  }
-}
 
 /* ===== Base ===== */
 *, *::before, *::after { box-sizing: border-box; }
